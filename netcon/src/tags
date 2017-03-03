@@ -1,0 +1,190 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALLDIRS	Makefile	/^ALLDIRS := $(shell ls -R | grep '^\\.\/.*$$' | awk '{gsub(":","");print}')$/;"	m
+ALLDIRS	Util/Makefile	/^ALLDIRS := $(shell ls -R | grep '^\\.\/.*$$' | awk '{gsub(":","");print}')$/;"	m
+ALLLOG	Util/include/logging.h	/^	ALLLOG$/;"	e	enum:LOGLEVEL
+BUILDDIR	Makefile	/^BUILDDIR := .\/Build\/objs$/;"	m
+BUILDDIR	Util/Makefile	/^BUILDDIR := ..\/Build\/objs$/;"	m
+CC	Makefile	/^CC := g++$/;"	m
+CC	Util/Makefile	/^CC := g++$/;"	m
+COMMENT	Util/include/configEngine.h	/^const int COMMENT = 1;$/;"	v
+COMTB	Util/include/configEngine.h	11;"	d
+CONFIGPATH	Util/include/settings.h	/^const std::string  CONFIGPATH  =  WORKPATH + "\/etc";$/;"	v
+CONFIG_FILE	Util/include/settings.h	/^const std::string  CONFIG_FILE =  CONFIGPATH + "\/netcon.ini";$/;"	v
+CPPFLAGS	Makefile	/^CPPFLAGS := -fPIC -shared$/;"	m
+CPPFLAGS	Util/Makefile	/^CPPFLAGS := -fPIC -shared$/;"	m
+DBG_LOG	Util/include/logging.h	22;"	d
+DEBUG	Util/include/logging.h	/^	DEBUG,$/;"	e	enum:LOGLEVEL
+ERRLINE	Util/include/configEngine.h	/^const int ERRLINE = -1;$/;"	v
+F_CHUNKED	Proxy/include/http_parser.h	/^  { F_CHUNKED               = 1 << 0$/;"	e	enum:flags
+F_CONNECTION_CLOSE	Proxy/include/http_parser.h	/^  , F_CONNECTION_CLOSE      = 1 << 2$/;"	e	enum:flags
+F_CONNECTION_KEEP_ALIVE	Proxy/include/http_parser.h	/^  , F_CONNECTION_KEEP_ALIVE = 1 << 1$/;"	e	enum:flags
+F_CONNECTION_UPGRADE	Proxy/include/http_parser.h	/^  , F_CONNECTION_UPGRADE    = 1 << 3$/;"	e	enum:flags
+F_CONTENTLENGTH	Proxy/include/http_parser.h	/^  , F_CONTENTLENGTH         = 1 << 7$/;"	e	enum:flags
+F_SKIPBODY	Proxy/include/http_parser.h	/^  , F_SKIPBODY              = 1 << 6$/;"	e	enum:flags
+F_TRAILING	Proxy/include/http_parser.h	/^  , F_TRAILING              = 1 << 4$/;"	e	enum:flags
+F_UPGRADE	Proxy/include/http_parser.h	/^  , F_UPGRADE               = 1 << 5$/;"	e	enum:flags
+HTTP_BOTH	Proxy/include/http_parser.h	/^enum http_parser_type { HTTP_REQUEST, HTTP_RESPONSE, HTTP_BOTH };$/;"	e	enum:http_parser_type
+HTTP_ERRNO_GEN	Proxy/include/http_parser.h	281;"	d
+HTTP_ERRNO_GEN	Proxy/include/http_parser.h	285;"	d
+HTTP_ERRNO_MAP	Proxy/include/http_parser.h	/^  HTTP_ERRNO_MAP(HTTP_ERRNO_GEN)$/;"	e	enum:http_errno
+HTTP_ERRNO_MAP	Proxy/include/http_parser.h	234;"	d
+HTTP_MAX_HEADER_SIZE	Proxy/include/http_parser.h	64;"	d
+HTTP_METHOD_MAP	Proxy/include/http_parser.h	/^  HTTP_METHOD_MAP(XX)$/;"	e	enum:http_method
+HTTP_METHOD_MAP	Proxy/include/http_parser.h	164;"	d
+HTTP_PARSER_ERRNO	Proxy/include/http_parser.h	289;"	d
+HTTP_PARSER_STRICT	Proxy/include/http_parser.h	53;"	d
+HTTP_PARSER_VERSION_MAJOR	Proxy/include/http_parser.h	28;"	d
+HTTP_PARSER_VERSION_MINOR	Proxy/include/http_parser.h	29;"	d
+HTTP_PARSER_VERSION_PATCH	Proxy/include/http_parser.h	30;"	d
+HTTP_REQUEST	Proxy/include/http_parser.h	/^enum http_parser_type { HTTP_REQUEST, HTTP_RESPONSE, HTTP_BOTH };$/;"	e	enum:http_parser_type
+HTTP_RESPONSE	Proxy/include/http_parser.h	/^enum http_parser_type { HTTP_REQUEST, HTTP_RESPONSE, HTTP_BOTH };$/;"	e	enum:http_parser_type
+HTTP_STATUS_MAP	Proxy/include/http_parser.h	/^  HTTP_STATUS_MAP(XX)$/;"	e	enum:http_status
+HTTP_STATUS_MAP	Proxy/include/http_parser.h	94;"	d
+INCFLAGS	Makefile	/^INCFLAGS := $(foreach dir, $(ALLDIRS), -I$(dir))$/;"	m
+INCFLAGS	Util/Makefile	/^INCFLAGS := $(foreach dir, $(ALLDIRS), -I$(dir))$/;"	m
+INCS	Makefile	/^INCS := $(foreach dir, $(ALLDIRS), $(wildcard $(dir)\/*.h))$/;"	m
+INCS	Util/Makefile	/^INCS := $(foreach dir, $(ALLDIRS), $(wildcard $(dir)\/*.h))$/;"	m
+INFO	Util/include/logging.h	/^	INFO,$/;"	e	enum:LOGLEVEL
+INFO_LOG	Util/include/logging.h	23;"	d
+KEYB	Util/include/configEngine.h	12;"	d
+KEYVAL	Util/include/configEngine.h	/^const int KEYVAL = 2;$/;"	v
+LOGLEVEL	Util/include/logging.h	/^enum LOGLEVEL{$/;"	g
+LOGPATH	Util/include/settings.h	/^const std::string  LOGPATH     =  WORKPATH + "\/log";$/;"	v
+LOG_NAME	Util/include/settings.h	/^const std::string  LOG_NAME    =  "netcon";$/;"	v
+NCSOCKET_H	Util/include/ncSocket.h	2;"	d
+NETSOCKET_H_INCLUDED	Util/include/netSocket.h	2;"	d
+NOLOG	Util/include/logging.h	/^	NOLOG = 0,$/;"	e	enum:LOGLEVEL
+OBJS	Makefile	/^OBJS := $(foreach obj, $(OBJSLIST), $(BUILDDIR)\/$(obj))$/;"	m
+OBJS	Util/Makefile	/^OBJS := $(foreach obj, $(OBJSLIST), $(BUILDDIR)\/$(obj))$/;"	m
+OBJSLIST	Makefile	/^OBJSLIST := $(notdir $(OLDOBJS))$/;"	m
+OBJSLIST	Util/Makefile	/^OBJSLIST := $(notdir $(OLDOBJS))$/;"	m
+OLDOBJS	Makefile	/^OLDOBJS := $(patsubst %.cpp, %.o, $(SRCS))$/;"	m
+OLDOBJS	Util/Makefile	/^OLDOBJS := $(patsubst %.cpp, %.o, $(SRCS))$/;"	m
+OUTPUT	Makefile	/^OUTPUT := ..\/output$/;"	m
+SECTB	Util/include/configEngine.h	9;"	d
+SECTE	Util/include/configEngine.h	10;"	d
+SECTION	Util/include/configEngine.h	/^const int SECTION = 0;$/;"	v
+SETTINGS_H_INCLUDED	Util/include/settings.h	2;"	d
+SHELL	Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	Util/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SPLIT	Util/include/logging.h	16;"	d
+SPLIT	Util/include/logging.h	19;"	d
+SRCS	Makefile	/^SRCS := $(foreach dir, $(ALLDIRS), $(wildcard $(dir)\/*.cpp))$/;"	m
+SRCS	Util/Makefile	/^SRCS := $(foreach dir, $(ALLDIRS), $(wildcard $(dir)\/*.cpp))$/;"	m
+Socket	Util/include/ncSocket.h	/^class Socket$/;"	c
+TARGET	Makefile	/^TARGET := $(OUTPUT)\/netcon$/;"	m
+TCPConnectTo	Util/src/netSocket.cpp	/^int netSocket::TCPConnectTo(const sockaddr_in* paddr)$/;"	f	class:netSocket
+TCPPortScan	main.cpp	/^int TCPPortScan(const string& dst, const int port)$/;"	f
+TCPServer	Util/src/netSocket.cpp	/^int netSocket::TCPServer(const sockaddr_in* paddr)$/;"	f	class:netSocket
+UF_FRAGMENT	Proxy/include/http_parser.h	/^  , UF_FRAGMENT         = 5$/;"	e	enum:http_parser_url_fields
+UF_HOST	Proxy/include/http_parser.h	/^  , UF_HOST             = 1$/;"	e	enum:http_parser_url_fields
+UF_MAX	Proxy/include/http_parser.h	/^  , UF_MAX              = 7$/;"	e	enum:http_parser_url_fields
+UF_PATH	Proxy/include/http_parser.h	/^  , UF_PATH             = 3$/;"	e	enum:http_parser_url_fields
+UF_PORT	Proxy/include/http_parser.h	/^  , UF_PORT             = 2$/;"	e	enum:http_parser_url_fields
+UF_QUERY	Proxy/include/http_parser.h	/^  , UF_QUERY            = 4$/;"	e	enum:http_parser_url_fields
+UF_SCHEMA	Proxy/include/http_parser.h	/^  { UF_SCHEMA           = 0$/;"	e	enum:http_parser_url_fields
+UF_USERINFO	Proxy/include/http_parser.h	/^  , UF_USERINFO         = 6$/;"	e	enum:http_parser_url_fields
+WORKPATH	Util/include/settings.h	/^const std::string  WORKPATH    =  "\/usr\/netcon";$/;"	v
+XX	Proxy/include/http_parser.h	157;"	d
+XX	Proxy/include/http_parser.h	159;"	d
+XX	Proxy/include/http_parser.h	208;"	d
+XX	Proxy/include/http_parser.h	210;"	d
+__CONFIGENGINE_H_H_H__	Util/include/configEngine.h	3;"	d
+__LOGGING_H_H_H__	Util/include/logging.h	7;"	d
+configEngine	Util/include/configEngine.h	/^	configEngine() :isFileExisted(false), isRefreshed(false){}$/;"	f	class:configEngine
+configEngine	Util/include/configEngine.h	/^class configEngine$/;"	c
+configMap	Util/include/configEngine.h	/^	std::map<std::string, std::map<std::string, std::string> > configMap;$/;"	m	class:configEngine
+content_length	Proxy/include/http_parser.h	/^  uint64_t content_length; \/* # bytes in body (0 if no Content-Length header) *\/$/;"	m	struct:http_parser
+data	Proxy/include/http_parser.h	/^  void *data; \/* A pointer to get hook to the "connection" or "socket" object *\/$/;"	m	struct:http_parser
+dbgLog	Util/src/logging.cpp	/^int logging::dbgLog(const char* fmt, ...)$/;"	f	class:logging
+decideLineType	Util/src/configEngine.cpp	/^int configEngine::decideLineType(const std::string& line, std::string& content)$/;"	f	class:configEngine
+endFmt	Util/include/logging.h	/^	const std::string endFmt;$/;"	m	class:logging
+field_data	Proxy/include/http_parser.h	/^  } field_data[UF_MAX];$/;"	m	struct:http_parser_url	typeref:struct:http_parser_url::__anon1
+field_set	Proxy/include/http_parser.h	/^  uint16_t field_set;           \/* Bitmask of (1 << UF_*) values *\/$/;"	m	struct:http_parser_url
+filename	Util/include/configEngine.h	/^	std::string filename;$/;"	m	class:configEngine
+flags	Proxy/include/http_parser.h	/^  unsigned int flags : 8;        \/* F_* values from 'flags' enum; semi-public *\/$/;"	m	struct:http_parser
+flags	Proxy/include/http_parser.h	/^enum flags$/;"	g
+getAllKey	Util/src/configEngine.cpp	/^void configEngine::getAllKey()$/;"	f	class:configEngine
+getInstance	Util/src/configEngine.cpp	/^configEngine* configEngine::getInstance()$/;"	f	class:configEngine
+getInstance	Util/src/logging.cpp	/^logging* logging::getInstance()$/;"	f	class:logging
+getLogFile	Util/src/logging.cpp	/^std::string logging::getLogFile() const$/;"	f	class:logging
+getSocketAddr	Util/src/netSocket.cpp	/^int netSocket::getSocketAddr(sockaddr_in* pa, const std::string& addr, const int port, const int family)$/;"	f	class:netSocket
+getTime	Util/src/logging.cpp	/^std::string logging::getTime()$/;"	f	class:logging
+getValueByKey	Util/src/configEngine.cpp	/^std::string configEngine::getValueByKey(const std::string& section, const std::string& key)$/;"	f	class:configEngine
+header_state	Proxy/include/http_parser.h	/^  unsigned int header_state : 7; \/* enum header_state from http_parser.c *\/$/;"	m	struct:http_parser
+http_cb	Proxy/include/http_parser.h	/^typedef int (*http_cb) (http_parser*);$/;"	t
+http_data_cb	Proxy/include/http_parser.h	/^typedef int (*http_data_cb) (http_parser*, const char *at, size_t length);$/;"	t
+http_errno	Proxy/include/http_parser.h	/^  unsigned int http_errno : 7;$/;"	m	struct:http_parser
+http_errno	Proxy/include/http_parser.h	/^enum http_errno {$/;"	g
+http_major	Proxy/include/http_parser.h	/^  unsigned short http_major;$/;"	m	struct:http_parser
+http_method	Proxy/include/http_parser.h	/^enum http_method$/;"	g
+http_minor	Proxy/include/http_parser.h	/^  unsigned short http_minor;$/;"	m	struct:http_parser
+http_parser	Proxy/include/http_parser.h	/^struct http_parser {$/;"	s
+http_parser	Proxy/include/http_parser.h	/^typedef struct http_parser http_parser;$/;"	t	typeref:struct:http_parser
+http_parser_h	Proxy/include/http_parser.h	22;"	d
+http_parser_settings	Proxy/include/http_parser.h	/^struct http_parser_settings {$/;"	s
+http_parser_settings	Proxy/include/http_parser.h	/^typedef struct http_parser_settings http_parser_settings;$/;"	t	typeref:struct:http_parser_settings
+http_parser_type	Proxy/include/http_parser.h	/^enum http_parser_type { HTTP_REQUEST, HTTP_RESPONSE, HTTP_BOTH };$/;"	g
+http_parser_url	Proxy/include/http_parser.h	/^struct http_parser_url {$/;"	s
+http_parser_url_fields	Proxy/include/http_parser.h	/^enum http_parser_url_fields$/;"	g
+http_status	Proxy/include/http_parser.h	/^enum http_status$/;"	g
+index	Proxy/include/http_parser.h	/^  unsigned int index : 7;        \/* index into current matcher *\/$/;"	m	struct:http_parser
+infoLog	Util/src/logging.cpp	/^int logging::infoLog(const char* fmt, ...)$/;"	f	class:logging
+init	main.cpp	/^int init()$/;"	f
+int16_t	Proxy/include/http_parser.h	/^typedef __int16 int16_t;$/;"	t
+int32_t	Proxy/include/http_parser.h	/^typedef __int32 int32_t;$/;"	t
+int64_t	Proxy/include/http_parser.h	/^typedef __int64 int64_t;$/;"	t
+int8_t	Proxy/include/http_parser.h	/^typedef __int8 int8_t;$/;"	t
+isFileExisted	Util/include/configEngine.h	/^	bool isFileExisted;$/;"	m	class:configEngine
+isRefreshed	Util/include/configEngine.h	/^	bool isRefreshed;$/;"	m	class:configEngine
+len	Proxy/include/http_parser.h	/^    uint16_t len;               \/* Length of run in buffer *\/$/;"	m	struct:http_parser_url::__anon1
+lenient_http_headers	Proxy/include/http_parser.h	/^  unsigned int lenient_http_headers : 1;$/;"	m	struct:http_parser
+level	Util/include/logging.h	/^	int level;$/;"	m	class:logging
+loadConfig2Map	Util/src/configEngine.cpp	/^int configEngine::loadConfig2Map()$/;"	f	class:configEngine
+logFile	Util/include/logging.h	/^	std::string logFile;$/;"	m	class:logging
+logPath	Util/include/logging.h	/^	std::string logPath;$/;"	m	class:logging
+logging	Util/include/logging.h	/^	logging():endFmt("<__FUNC__>@__FILE__"), level(NOLOG){}$/;"	f	class:logging
+logging	Util/include/logging.h	/^class logging$/;"	c
+main	main.cpp	/^int main(int argc, char* argv[])$/;"	f
+method	Proxy/include/http_parser.h	/^  unsigned int method : 8;       \/* requests only *\/$/;"	m	struct:http_parser
+netSocket	Util/include/netSocket.h	/^class netSocket$/;"	c
+nread	Proxy/include/http_parser.h	/^  uint32_t nread;          \/* # bytes read in various scenarios *\/$/;"	m	struct:http_parser
+off	Proxy/include/http_parser.h	/^    uint16_t off;               \/* Offset into buffer in which field starts *\/$/;"	m	struct:http_parser_url::__anon1
+on_body	Proxy/include/http_parser.h	/^  http_data_cb on_body;$/;"	m	struct:http_parser_settings
+on_chunk_complete	Proxy/include/http_parser.h	/^  http_cb      on_chunk_complete;$/;"	m	struct:http_parser_settings
+on_chunk_header	Proxy/include/http_parser.h	/^  http_cb      on_chunk_header;$/;"	m	struct:http_parser_settings
+on_header_field	Proxy/include/http_parser.h	/^  http_data_cb on_header_field;$/;"	m	struct:http_parser_settings
+on_header_value	Proxy/include/http_parser.h	/^  http_data_cb on_header_value;$/;"	m	struct:http_parser_settings
+on_headers_complete	Proxy/include/http_parser.h	/^  http_cb      on_headers_complete;$/;"	m	struct:http_parser_settings
+on_message_begin	Proxy/include/http_parser.h	/^  http_cb      on_message_begin;$/;"	m	struct:http_parser_settings
+on_message_complete	Proxy/include/http_parser.h	/^  http_cb      on_message_complete;$/;"	m	struct:http_parser_settings
+on_status	Proxy/include/http_parser.h	/^  http_data_cb on_status;$/;"	m	struct:http_parser_settings
+on_url	Proxy/include/http_parser.h	/^  http_data_cb on_url;$/;"	m	struct:http_parser_settings
+pInstance	Util/include/configEngine.h	/^	static configEngine* pInstance;$/;"	m	class:configEngine
+pInstance	Util/include/logging.h	/^	static logging* pInstance;$/;"	m	class:logging
+pInstance	Util/src/configEngine.cpp	/^configEngine* configEngine::pInstance = NULL;$/;"	m	class:configEngine	file:
+pInstance	Util/src/logging.cpp	/^logging* logging::pInstance = NULL;$/;"	m	class:logging	file:
+pini	main.cpp	/^extern configEngine* pini = configEngine::getInstance();$/;"	v
+port	Proxy/include/http_parser.h	/^  uint16_t port;                \/* Converted UF_PORT string *\/$/;"	m	struct:http_parser_url
+runTCPserver	main.cpp	/^int runTCPserver()$/;"	f
+setConfigPath	Util/src/configEngine.cpp	/^void configEngine::setConfigPath(const std::string& file)$/;"	f	class:configEngine
+setLevel	Util/src/logging.cpp	/^int logging::setLevel(const std::string& le)$/;"	f	class:logging
+setLogFile	Util/src/logging.cpp	/^int logging::setLogFile(const std::string& file)$/;"	f	class:logging
+setLogPath	Util/src/logging.cpp	/^int logging::setLogPath(const std::string& path)$/;"	f	class:logging
+sockfd	Util/include/ncSocket.h	/^        int sockfd;$/;"	m	class:Socket
+state	Proxy/include/http_parser.h	/^  unsigned int state : 7;        \/* enum state from http_parser.c *\/$/;"	m	struct:http_parser
+status_code	Proxy/include/http_parser.h	/^  unsigned int status_code : 16; \/* responses only *\/$/;"	m	struct:http_parser
+type	Proxy/include/http_parser.h	/^  unsigned int type : 2;         \/* enum http_parser_type *\/$/;"	m	struct:http_parser
+uint16_t	Proxy/include/http_parser.h	/^typedef unsigned __int16 uint16_t;$/;"	t
+uint32_t	Proxy/include/http_parser.h	/^typedef unsigned __int32 uint32_t;$/;"	t
+uint64_t	Proxy/include/http_parser.h	/^typedef unsigned __int64 uint64_t;$/;"	t
+uint8_t	Proxy/include/http_parser.h	/^typedef unsigned __int8 uint8_t;$/;"	t
+upgrade	Proxy/include/http_parser.h	/^  unsigned int upgrade : 1;$/;"	m	struct:http_parser
+validateFamily	Util/src/netSocket.cpp	/^bool netSocket::validateFamily(const int family)$/;"	f	class:netSocket
+validateIPv4	Util/src/netSocket.cpp	/^bool netSocket::validateIPv4(const std::string& addr)$/;"	f	class:netSocket
+validatePort	Util/src/netSocket.cpp	/^bool netSocket::validatePort(const int port)$/;"	f	class:netSocket

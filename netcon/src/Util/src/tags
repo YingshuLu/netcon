@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+TCPConnectTo	netSocket.cpp	/^int netSocket::TCPConnectTo(const sockaddr_in* paddr)$/;"	f	class:netSocket
+TCPServer	netSocket.cpp	/^int netSocket::TCPServer(const sockaddr_in* paddr)$/;"	f	class:netSocket
+dbgLog	logging.cpp	/^int logging::dbgLog(const char* fmt, ...)$/;"	f	class:logging
+decideLineType	configEngine.cpp	/^int configEngine::decideLineType(const std::string& line, std::string& content)$/;"	f	class:configEngine
+getAllKey	configEngine.cpp	/^void configEngine::getAllKey()$/;"	f	class:configEngine
+getInstance	configEngine.cpp	/^configEngine* configEngine::getInstance()$/;"	f	class:configEngine
+getInstance	logging.cpp	/^logging* logging::getInstance()$/;"	f	class:logging
+getLogFile	logging.cpp	/^std::string logging::getLogFile() const$/;"	f	class:logging
+getSocketAddr	netSocket.cpp	/^int netSocket::getSocketAddr(sockaddr_in* pa, const std::string& addr, const int port, const int family)$/;"	f	class:netSocket
+getTime	logging.cpp	/^std::string logging::getTime()$/;"	f	class:logging
+getValueByKey	configEngine.cpp	/^std::string configEngine::getValueByKey(const std::string& section, const std::string& key)$/;"	f	class:configEngine
+infoLog	logging.cpp	/^int logging::infoLog(const char* fmt, ...)$/;"	f	class:logging
+loadConfig2Map	configEngine.cpp	/^int configEngine::loadConfig2Map()$/;"	f	class:configEngine
+pInstance	configEngine.cpp	/^configEngine* configEngine::pInstance = NULL;$/;"	m	class:configEngine	file:
+pInstance	logging.cpp	/^logging* logging::pInstance = NULL;$/;"	m	class:logging	file:
+setConfigPath	configEngine.cpp	/^void configEngine::setConfigPath(const std::string& file)$/;"	f	class:configEngine
+setLevel	logging.cpp	/^int logging::setLevel(const std::string& le)$/;"	f	class:logging
+setLogFile	logging.cpp	/^int logging::setLogFile(const std::string& file)$/;"	f	class:logging
+setLogPath	logging.cpp	/^int logging::setLogPath(const std::string& path)$/;"	f	class:logging
+validateFamily	netSocket.cpp	/^bool netSocket::validateFamily(const int family)$/;"	f	class:netSocket
+validateIPv4	netSocket.cpp	/^bool netSocket::validateIPv4(const std::string& addr)$/;"	f	class:netSocket
+validatePort	netSocket.cpp	/^bool netSocket::validatePort(const int port)$/;"	f	class:netSocket

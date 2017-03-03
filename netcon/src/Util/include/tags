@@ -1,0 +1,50 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALLLOG	logging.h	/^	ALLLOG$/;"	e	enum:LOGLEVEL
+COMMENT	configEngine.h	/^const int COMMENT = 1;$/;"	v
+COMTB	configEngine.h	11;"	d
+CONFIGPATH	settings.h	/^const std::string  CONFIGPATH  =  WORKPATH + "\/etc";$/;"	v
+CONFIG_FILE	settings.h	/^const std::string  CONFIG_FILE =  CONFIGPATH + "\/netcon.ini";$/;"	v
+DBG_LOG	logging.h	22;"	d
+DEBUG	logging.h	/^	DEBUG,$/;"	e	enum:LOGLEVEL
+ERRLINE	configEngine.h	/^const int ERRLINE = -1;$/;"	v
+INFO	logging.h	/^	INFO,$/;"	e	enum:LOGLEVEL
+INFO_LOG	logging.h	23;"	d
+KEYB	configEngine.h	12;"	d
+KEYVAL	configEngine.h	/^const int KEYVAL = 2;$/;"	v
+LOGLEVEL	logging.h	/^enum LOGLEVEL{$/;"	g
+LOGPATH	settings.h	/^const std::string  LOGPATH     =  WORKPATH + "\/log";$/;"	v
+LOG_NAME	settings.h	/^const std::string  LOG_NAME    =  "netcon";$/;"	v
+NCSOCKET_H	ncSocket.h	2;"	d
+NETSOCKET_H_INCLUDED	netSocket.h	2;"	d
+NOLOG	logging.h	/^	NOLOG = 0,$/;"	e	enum:LOGLEVEL
+SECTB	configEngine.h	9;"	d
+SECTE	configEngine.h	10;"	d
+SECTION	configEngine.h	/^const int SECTION = 0;$/;"	v
+SETTINGS_H_INCLUDED	settings.h	2;"	d
+SPLIT	logging.h	16;"	d
+SPLIT	logging.h	19;"	d
+Socket	ncSocket.h	/^class Socket$/;"	c
+WORKPATH	settings.h	/^const std::string  WORKPATH    =  "\/usr\/netcon";$/;"	v
+__CONFIGENGINE_H_H_H__	configEngine.h	3;"	d
+__LOGGING_H_H_H__	logging.h	7;"	d
+configEngine	configEngine.h	/^	configEngine() :isFileExisted(false), isRefreshed(false){}$/;"	f	class:configEngine
+configEngine	configEngine.h	/^class configEngine$/;"	c
+configMap	configEngine.h	/^	std::map<std::string, std::map<std::string, std::string> > configMap;$/;"	m	class:configEngine
+endFmt	logging.h	/^	const std::string endFmt;$/;"	m	class:logging
+filename	configEngine.h	/^	std::string filename;$/;"	m	class:configEngine
+isFileExisted	configEngine.h	/^	bool isFileExisted;$/;"	m	class:configEngine
+isRefreshed	configEngine.h	/^	bool isRefreshed;$/;"	m	class:configEngine
+level	logging.h	/^	int level;$/;"	m	class:logging
+logFile	logging.h	/^	std::string logFile;$/;"	m	class:logging
+logPath	logging.h	/^	std::string logPath;$/;"	m	class:logging
+logging	logging.h	/^	logging():endFmt("<__FUNC__>@__FILE__"), level(NOLOG){}$/;"	f	class:logging
+logging	logging.h	/^class logging$/;"	c
+netSocket	netSocket.h	/^class netSocket$/;"	c
+pInstance	configEngine.h	/^	static configEngine* pInstance;$/;"	m	class:configEngine
+pInstance	logging.h	/^	static logging* pInstance;$/;"	m	class:logging
+sockfd	ncSocket.h	/^        int sockfd;$/;"	m	class:Socket
